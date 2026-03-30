@@ -132,13 +132,13 @@ INSERT INTO tbl_jogadores_has_tbl_times (tbl_jogadores_id_jogadores, tbl_times_i
 (3, 1);
 
 INSERT INTO boletim (frequencia, mencao, ocorrencia, tbl_jogadores_id_jogadores) VALUES
-(95, 9, 1, 1),
+(95, 9, 4, 1),
 (88, 8, 2, 2),
-(75, 7, 3, 3),
-(60, 6, 4, 4),
-(98, 10, 5, 5),
-(85, 8, 6, 6),
-(70, 7, 7, 7);
+(75, 7, 4, 3),
+(60, 6, 3, 4),
+(98, 10, 1, 5),
+(85, 8, 3, 6),
+(70, 7, 2, 7);
 
 -- select comfirmação com inner join e left
 
