@@ -193,6 +193,7 @@ JOIN tbl_modalidade m
 GROUP BY j.id_jogadores, j.nome
 HAVING COUNT(DISTINCT m.id_modalidade) > 1;
 
+-- quantas modalidades tenm times formados
 
 SELECT COUNT(DISTINCT m.id_modalidade) AS total_modalidades_com_times
 FROM tbl_modalidade m
